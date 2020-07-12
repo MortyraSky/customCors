@@ -1,0 +1,42 @@
+.chips {
+    padding: 10px 20px;
+    margin: 20px 10px;
+    border-radius: 12px;
+    background: rgba(0,0,0,.4);
+    color: #dedede;
+    z-index: 1000;
+}
+
+.error {
+    background: rgba(211, 24, 33, 0.767);
+}
+
+.sucsess {
+    background: rgba(17, 202, 109, 0.733);
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.chips-field {
+    width: 300px;
+    position: absolute;
+    left: 25%;
+    right: 30%;
+    top: 5%;
+}
+
+
+.favorite{
+    left: 60%;
+    top: 20%;
+}
+
+.find{
+    left: 14%;
+    top: 7%;
+}
+
+.modal{
+    left: -5%;
+    top: 20%;
+}

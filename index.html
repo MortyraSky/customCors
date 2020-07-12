@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/chips.css">
+    <script src="https://kit.fontawesome.com/8c5f8983b2.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <main class="wrapper">
+        <h1 class="header">work with cors</h1>
+        <div class="control-block">
+            <div class="find-block">
+                <input type="text" id="find-input" placeholder="Имя записи">
+                <button type="submit" class="find-note">Найти запись</button>
+            </div>
+            <div class="switch-block">
+                
+                <input type="checkbox" id="show-favorite" class="custom-checkbox"> 
+                <label for="show-favorite" class="show-favorite">
+                    <p>Показать избранное</p>
+                </label>
+
+            </div>
+        </div>
+        <div class="container-notes">
+            <div class="notes-field"></div>
+            <div class="favorite-field hide">
+                <button id="favorite-delete-all" class="delete-all">Удалить все записи</button>
+            </div>
+        </div>
+
+        <ul id="pagination">
+        </ul>
+    </main>
+    <div class="modal-wrap hide" id="more-modal">
+        <div class="modal-project">
+            <button class="modal-project-close btn-floating btn-small waves-effect waves-light red">
+                <i class="material-icons">close</i>
+            </button>
+            <div class="row">
+                <div class="values-block modal-note" id="modal-note">
+                    <div class="id-block" id="modal-id"></div>
+                    <div class="message-block" id="modal-message"></div>
+                    <div class="name-block" id="modal-name"></div>
+                    <button type="submit" id="add-favorite">В избранное</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/chips.js"></script>
+    <script src="js/modal.js"></script>
+</body>
+
+</html>

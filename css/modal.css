@@ -1,0 +1,58 @@
+.modal-wrap{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;    
+}
+
+.modal-project{
+    position: relative;
+    width: 250px;
+    /* height: 320px; */
+    border: 1px solid #26a69a;
+    border-radius: 12px;
+    box-shadow: 1px 1px 10px black;
+    padding: 10px;
+    background: #fff;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;   
+}
+
+.errorModal{
+    box-shadow: 1px 1px 10px red;
+}
+
+.modal-project-close {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+}
+
+
+.modal-note {
+    width: 100%;
+    border: none;
+}
+
+#modal-id {
+    width: 100%;
+}
+
+#modal-message {
+    width: 100%;
+}
+
+#modal-name {
+    width: 100%;
+}
+
+#add-favorite {
+    margin-top: 15px;
+}
