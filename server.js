@@ -16,13 +16,13 @@
 // сервер на expressJS
 let values = [{
         id: 123456,
-        message: 'THIS IS pavel',
-        name: "pavel"
+        message: 'THIS IS parta',
+        name: "parta"
     },
     {
         id: 789000,
-        message: 'THIS IS aida',
-        name: "aida"
+        message: 'THIS IS bear',
+        name: "bear"
     },
     {
         id: 999999,
